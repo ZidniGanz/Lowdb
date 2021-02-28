@@ -1,0 +1,23 @@
+{
+  "name": "anilia-server",
+  "version": "1.0.0",
+  "description": "restful API Anime Bahsa Indonesia with node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "MODE=PRODUCTION node index.js",
+    "dev": "MODE=DEVELOPMENT nodemon index.js"
+  },
+  "author": "Elia Brian Baskoro",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
